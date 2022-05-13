@@ -2,7 +2,7 @@
   "svelte.enable-ts-plugin": true,
   "editor.occurrencesHighlight": false,
   "editor.guides.indentation": false,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -10,7 +10,7 @@
   "eslint.validate": ["javascript"],
   "subtleBrackets.style": {
     "fontWeight": "bold",
-    "borderStyle": "none none none none",
+    "borderStyle": "none none none none"
   },
   "editor.renderLineHighlight": "none",
   "editor.tabSize": 2,
@@ -23,5 +23,6 @@
   "debug.allowBreakpointsEverywhere": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[svelte]": {"editor.defaultFormatter": "svelte.svelte-vscode"}
 }
