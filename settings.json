@@ -2,7 +2,7 @@
   "svelte.enable-ts-plugin": true,
   "editor.occurrencesHighlight": false,
   "editor.guides.indentation": false,
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -16,7 +16,11 @@
   "editor.tabSize": 2,
   "editor.quickSuggestionsDelay": 2000,
   "editor.hover.delay": 5000,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.parameterHints": false,
   "debug.inlineValues": true,
   "svelte.plugin.html.completions.emmet": false,
@@ -24,5 +28,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[svelte]": {"editor.defaultFormatter": "svelte.svelte-vscode"}
+  "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" }
 }
