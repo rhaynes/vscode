@@ -17,12 +17,16 @@ esbenp.prettier-vscode
 rafamel.subtle-brackets
 svelte.svelte-vscode
 Tyriar.luna-paint
+stordahl.sveltekit-snippets
+WallabyJs.wallaby-vscode
 ```
 
 ## Browser extensions for debugging
-* https://github.com/RedHatter/svelte-devtools
+
+- https://github.com/RedHatter/svelte-devtools
 
 ## Not vscode but important
+
 ```
 git config pull.rebase false
 git config pull.ff only
