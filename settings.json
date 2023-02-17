@@ -21,7 +21,6 @@
     "strings": "off",
     "other": "off"
   },
-  "editor.parameterHints": false,
   "debug.inlineValues": true,
   "svelte.plugin.html.completions.emmet": false,
   "debug.allowBreakpointsEverywhere": true,
@@ -31,8 +30,6 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "jumpy.wordRegexp": "(\\w{2,}|.$)",
-  "jumpy.lineRegexp": "",
   "workbench.editor.revealIfOpen": false,
-  "svelte.plugin.svelte.note-new-transformation": false
+  "workbench.editor.labelFormat": "short"
 }
