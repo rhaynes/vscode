@@ -12,13 +12,13 @@ code --install-extension
 ## Preferred extensions
 
 ```
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-rafamel.subtle-brackets
-svelte.svelte-vscode
-Tyriar.luna-paint
-stordahl.sveltekit-snippets
-WallabyJs.wallaby-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension rafamel.subtle-brackets
+code --install-extension svelte.svelte-vscode
+code --install-extension Tyriar.luna-paint
+code --install-extension stordahl.sveltekit-snippets
+code --install-extension WallabyJs.wallaby-vscode
 ```
 
 ## Browser extensions for debugging
